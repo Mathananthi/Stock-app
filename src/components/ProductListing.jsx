@@ -11,7 +11,7 @@ export default function ProductListing() {
         >
           {/* Product image from public/images */}
           <img
-            src={`/images/${product.image}`} // e.g., public/images/Wireless Keyboard.jpg
+            src={`${import.meta.env.BASE_URL}images/${product.image}`} // e.g., public/images/Wireless Keyboard.jpg
             alt={product.name}
             className="w-full h-48 object-contain mb-4 rounded bg-white"
           />

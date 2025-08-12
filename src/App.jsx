@@ -21,7 +21,7 @@ function App() {
           <Topbar />
           <div className="flex-1 overflow-y-auto">
             <Routes>
-              <Route path="/" element={
+              <Route path="/Stock-app" element={
                 <>
                   <Cards productLength={totalProductLength} orderLength={totalOrders} />
                   <ProductTable />
